@@ -9,9 +9,9 @@
     <Grid Background="#FF35A39C">
         <Label Content="Login" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Height="71" Width="120" RenderTransformOrigin="0.488,0.494" FontSize="40" Background="#FF35A39C" Foreground="#FFF40A0A" FontWeight="Bold"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="258,221,0,0" VerticalAlignment="Top" Width="82" FontSize="20"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="340,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged" Height="33" Text=""/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="340,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TextBox_TextChanged" Height="33" Text="" FontSize="20"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="234,263,0,0" VerticalAlignment="Top" Width="106" FontSize="20"/>
-        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="340,263,0,0" VerticalAlignment="Top" Width="197" Height="36"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="340,263,0,0" VerticalAlignment="Top" Width="197" Height="36" FontSize="20"/>
         <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="340,334,0,0" VerticalAlignment="Top" Height="28" Width="93" Click="btnLogin_Click"/>
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="455,334,0,0" VerticalAlignment="Top" Height="28" Width="82" Click="Button_Click"/>
     </Grid>
